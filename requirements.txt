@@ -1,0 +1,10 @@
+# Dependencias del proyecto Wolfram Alpha
+
+# Para realizar solicitudes HTTP a la API de Wolfram Alpha
+requests>=2.25.1
+
+# Para manejar variables de entorno (opcional)
+python-dotenv>=0.19.0
+
+# Para pruebas unitarias (opcional)
+unittest2>=1.1.0

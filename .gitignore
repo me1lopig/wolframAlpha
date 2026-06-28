@@ -1,0 +1,31 @@
+# Archivos y directorios ignorados por Git
+
+# Bytecode de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribución y paquetes
+*.egg-info/
+.dist/
+.build/
+
+# Entorno virtual
+.env/
+venv/
+
+# Archivos de entorno
+.env
+
+# Logs
+*.log
+wolfram_alpha.log
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Sistema operativo
+.DS_Store
+Thumbs.db

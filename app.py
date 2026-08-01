@@ -11,7 +11,7 @@ load_dotenv(dotenv_path=ruta_env)
 # Extraemos la clave de la variable que hemos definido en el archivo .env
 APP_ID = os.getenv("WOLFRAM_APP_ID")
 
-# 2. Configuración de la página de Streamlit
+# 2. Configuración de la página de Streamlitsre
 st.set_page_config(
     page_title="Wolfram Explorer", 
     page_icon="🐺", 
@@ -20,7 +20,6 @@ st.set_page_config(
 
 st.title("Motor de Cálculo Visual")
 st.markdown("Consultas directas a la **Simple API** de Wolfram|Alpha")
-st.markdown("La entrada de datos debe de ser en Inglés.")
 
 # 3. Barra lateral para la parametrización de la imagen
 st.sidebar.header("Parámetros de la API")
